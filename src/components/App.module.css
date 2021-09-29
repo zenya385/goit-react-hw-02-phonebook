@@ -1,0 +1,10 @@
+body {
+  background-color: #60888d;
+  padding: 30px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
