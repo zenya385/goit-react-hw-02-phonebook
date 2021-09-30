@@ -57,7 +57,7 @@ class App extends Component {
         <Section title="Contacts">
           <Filter filter={this.state.filter} setFilter={this.setFilter} />
           <Contacts
-            users={this.state.contacts}
+            contact={this.state.contacts}
             filterInputHandler={this.filterInputHandler()}
             removeUser={this.removeUser}
           />
